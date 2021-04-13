@@ -1,0 +1,172 @@
+/*-------------------------
+         Font Upload
+-------------------------*/
+ 
+@font-face{
+	font-family: poppins-regular;
+	src: url(../fonts/Poppins-Regular.ttf); 
+}
+@font-face{
+	font-family: poppins-semibold;
+	src: url(../fonts/Poppins-SemiBold.ttf); 
+}
+@font-face{
+	font-family: poppins-bold;
+	src: url(../fonts/Poppins-Bold.ttf); 
+}
+/*-------------------------
+         GENERAL
+-------------------------*/
+.btn-primary{
+	font-family: 'poppins-bold';
+	font-size: 16pt;
+	background: #2500f9;
+	color: white;
+}
+h1{
+	font-family: ﻿poppins-semibold;
+	font-size: 60pt !important;
+	color: rgba(36, 47, 81, 255);
+	text-align: left;
+	font-weight: 700 !important;
+}
+p{
+	font-family: ﻿poppins-regular;
+	font-size: 18pt;
+	color: #616368;
+	font-weight: 500 !important;
+}
+span{
+	font-family: ﻿poppins-regular;
+	font-size: 16pt;
+	color: #616368;
+	font-weight: 500 !important;
+}
+
+/*-------------------------
+         HEADER
+-------------------------*/
+nav ul li.nav-item{
+	font-family: 'poppins-regular';
+	font-size: 16pt;
+	line-height: 44pt;
+	color: #242f51 !important;
+}
+/*-------------------------
+         HERO
+-------------------------*/
+section.full-screen {
+  height: 130vh;
+}
+section.hero{
+	/*padding: 4rem 2rem;
+	margin-bottom: 2rem;
+	border-radius: .3rem;*/
+	width: 100%;
+	background-image: url('../images/Layer 5@1X.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+ 
+.bg-transparent{
+	font-family: 'poppins-regular';
+	color: #2500f9 !important;
+}
+
+/*-------------------------
+         COMPANY
+-------------------------*/
+
+h6{
+	font-family: ﻿poppins-regular;
+	font-size: 16pt !important;
+	color: #242f51;
+	text-align: center;
+}
+.company img{
+	margin-left: 48px !important;
+    padding-left: 24px !important;
+    padding-right: 10px !important;
+}
+/*-------------------------
+         FEATURES
+-------------------------*/
+h2{
+	font-family: ﻿poppins-semibold;
+	font-size: 36pt !important;
+	color: #242f51;
+	font-weight: 600 !important
+	 
+}
+h4{
+	font-family: ﻿poppins-semibold;
+	font-size: 20pt !important;
+	color: #242f51;
+	font-weight: 600 !important
+}
+.feature-text{
+	font-size: 16pt !important;
+}
+.performance{
+	color: #f55767;
+}
+.prototype{
+	color: #2563ff;
+}
+.vector{
+	color: #40975f;
+}
+/*-------------------------
+         JACKPOT
+-------------------------*/
+.jackpot-text{
+	font-size: 40pt !important;
+}
+.jackpot-text1{
+	font-size: 16pt !important;
+}
+.jackpot-shape{
+	border-left: 2px solid #ddd;
+	height: 180px;
+}
+/*-------------------------
+         PRICING
+-------------------------*/
+.border-1{
+	width: 20%;
+
+}
+.pricing-bg{
+	width: 100%;
+	background-image: url('../images/pr1.png') no-repeat;
+
+}
+/*-------------------------
+         DOWNLOAD
+-------------------------*/
+.download-app{
+	font-size: 48pt !important;
+
+}
+/*-------------------------
+         FOOTER
+-------------------------*/
+footer{
+	height: 500px;
+	background: #242f51;
+}
+footer ul li{
+	display: inline;
+	color: white;
+	padding: 10px;
+
+}
+ 
+footer ul li.fab{
+	font-size: 2rem;
+	 
+}
+footer ul li.fab1{
+	color: gray;
+}
